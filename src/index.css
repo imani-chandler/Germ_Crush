@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi+Fun:wght@700&display=swap');
+
 .app {
   display: flex;
   padding: 30px;
@@ -10,7 +12,7 @@
   height: 560px;
   display: flex;
   flex-wrap: wrap;
-  border: 1px solid rgb(0, 0, 0);
+  border: 3px solid rgb(0, 0, 0);
 
 }
 
@@ -21,9 +23,20 @@
 
 .score-board {
   align-items: center;
-  margin-left: 15px;
+  margin-left: 96px;
+  font-family: 'Reem Kufi Fun', sans-serif;
+  color: gold;
+}
+
+.banner {
+  margin-right: 96px;
+}
+
+.logo {
+  width: 300px;
 }
 
 body {
   background-color: aqua;
+  background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapercave.com%2Fwp%2Fwp2347633.jpg&f=1&nofb=1')
 }

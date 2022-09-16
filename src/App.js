@@ -185,7 +185,12 @@ const App = () => {
 
   return (
     <div className="app">
-      <div className="app">Candy Crush!</div>
+      <div className="banner">
+      <img 
+      alt='' 
+      className='logo' 
+      src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F5b%2F27%2F71%2F5b27712520468fc37329a7fd84c2a31d.png&f=1&nofb=1' />
+      </div>
         <div className="game">
             {currentColorArrangement.map((candyColor, index) => (
               <img
