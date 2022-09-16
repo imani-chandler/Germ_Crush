@@ -1,5 +1,5 @@
 const ScoreBoard = ( { score } ) => {
-    return (
+  return (
         <div className="score-board">
             <h2 className="score">Score: {score}</h2>
         </div>
