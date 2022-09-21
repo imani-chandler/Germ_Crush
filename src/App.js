@@ -206,7 +206,7 @@ const App = () => {
               />
             ))}
         </div>
-        <ScoreBoard score={scoreDisplay}/> 
+        <ScoreBoard score={scoreDisplay} setScoreDisplay={setScoreDisplay}/> 
     </div>
   );
 }

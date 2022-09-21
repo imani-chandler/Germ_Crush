@@ -1,4 +1,8 @@
-const ScoreBoard = ( { score } ) => {
+const ScoreBoard = ( { score, setScoreDisplay } ) => {
+    function resetScore() {
+        setScoreDisplay(score)
+    }
+
   return (
         <div className="score-board">
             <button> RESET </button>
