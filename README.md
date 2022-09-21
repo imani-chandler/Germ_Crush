@@ -1,6 +1,6 @@
 Welcome to my Candy Crush app!
 
--Made with ReactJS
+-Made with ReactJS / CSS
 
 Simply, run npm start and enjoy!
 

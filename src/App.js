@@ -107,8 +107,6 @@ const App = () => {
     }
   }
 
-  console.log(scoreDisplay)
-
   const dragStart = (e) => {
     setSquareBeingDragged(e.target)
   }
@@ -208,7 +206,7 @@ const App = () => {
               />
             ))}
         </div>
-        <ScoreBoard score={scoreDisplay} /> 
+        <ScoreBoard score={scoreDisplay}/> 
     </div>
   );
 }
