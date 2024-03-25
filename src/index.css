@@ -12,7 +12,8 @@
   height: 560px;
   display: flex;
   flex-wrap: wrap;
-  border: 3px solid #eed230;
+  background-color: rgb(62, 97, 203);
+  border: 1px solid rgb(7, 7, 113);
 
 }
 
