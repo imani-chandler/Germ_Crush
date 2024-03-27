@@ -5,8 +5,21 @@ const ScoreBoard = ( { score, setScoreDisplay } ) => {
 
   return (
         <div className="score-board">
-            <button> RESET </button>
-            <h2 className="score">SCORE: &nbsp;&nbsp; {score}</h2>
+            <button
+                style={{
+                    position: 'absolute',
+                    left: 140,
+                    top: 10
+                }}
+            > RESET </button>
+            <h2 className="score"
+                style={{
+                    position: 'absolute',
+                    fontSize: 50,
+                    left: 110,
+                    top: 35
+                }}
+            >&nbsp;&nbsp; {score} pts</h2>
         </div>
     )
 }

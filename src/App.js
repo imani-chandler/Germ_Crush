@@ -1,22 +1,18 @@
 import { useEffect, useState } from 'react'
 import ScoreBoard from './components/ScoreBoard'
-import blueCandy from './images/blue-candy.png'
-import greenCandy from './images/green-candy.png'
-import orangeCandy from './images/orange-candy.png'
-import purpleCandy from './images/purple-candy.png'
-import redCandy from './images/red-candy.png'
-import yellowCandy from './images/yellow-candy.png'
+import fungi from './images/fungi.png'
+import protozoa from './images/protozoa.png'
+import bacteria from './images/bacteria.png'
+import virus from './images/virus.png'
 import blank from './images/blank.png'
 
 
 const width = 8
 const candyColors = [
-  blueCandy,
-  greenCandy,
-  orangeCandy,
-  purpleCandy,
-  redCandy,
-  yellowCandy
+  fungi,
+  protozoa,
+  bacteria,
+  virus,
 ]
 
 
@@ -187,7 +183,13 @@ const App = () => {
       <img 
        
        src={require('./images/logo.png')} 
-       height={200}/>
+      //  height={200}
+       style={{
+          position: 'absolute',
+          height: 770,
+          top: 0,
+          left: 0
+       }}/>
       </div>
         <div className="game">
             {currentColorArrangement.map((candyColor, index) => (

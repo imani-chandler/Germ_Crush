@@ -14,6 +14,10 @@
   flex-wrap: wrap;
   background-color: rgb(62, 97, 203);
   border: 1px solid rgb(7, 7, 113);
+  border-radius: 10px;
+  position: absolute;
+  left: 700px;
+  top: 150px;
 
 }
 
@@ -26,7 +30,8 @@
   align-items: center;
   margin-left: 96px;
   font-family: 'Reem Kufi Fun', sans-serif;
-  color: #eed230;
+  color: #fa3200;
+  z-index: 10;
 }
 
 .banner {
@@ -35,9 +40,11 @@
 
 .logo {
   width: 300px;
+  position: absolute;
+  top: 500px;
 }
 
 body {
   background-color: aqua;
-  background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapercave.com%2Fwp%2Fwp2347633.jpg&f=1&nofb=1')
+  background-image: url('./images/background.png')
 }
